@@ -1,0 +1,37 @@
+{% if certificates and certificates | length %}
+<div class="certificates-container">
+  <h2 class="section-title">Sertifikat</h2>
+  <div class="certificates-grid">
+    {% for certificate in certificates %}
+    <div class="certificate-card">
+      <div class="certificate-inner">
+        <div class="certificate-head">
+          <h3 class="certificate-title">{{ certificate.title }}</h3>
+          {% if certificate.issued %}
+          <span class="certificate-year">{{ certificate.issued }}</span>
+          {% endif %}
+        </div>
+        {% if certificate.issuer %}
+        <p class="certificate-issuer">{{ certificate.issuer }}</p>
+        {% endif %} {% if certificate.description %}
+        <p class="certificate-description">{{ certificate.description }}</p>
+        {% endif %}
+      </div>
+      <div class="certificate-footer">
+        {% if certificate.credentialId %}
+        <span class="certificate-id">ID: {{ certificate.credentialId }}</span>
+        {% endif %} {% if certificate.credentialUrl %}
+        <a
+          href="{{ certificate.credentialUrl }}"
+          class="link-out"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Lihat kredensial</a
+        >
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}

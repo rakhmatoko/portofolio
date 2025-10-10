@@ -1,0 +1,118 @@
+{% if journey %}
+<div class="journey-container" data-component="journey-tabs">
+  <h2 class="section-title">Perjalanan Saya</h2>
+
+  <div class="journey-tabs" role="tablist" aria-label="Perjalanan Saya">
+    <button
+      class="journey-tab is-active"
+      role="tab"
+      aria-selected="true"
+      aria-controls="journey-education"
+      id="tab-education"
+      data-journey-trigger="education"
+    >
+      Pendidikan
+    </button>
+    <button
+      class="journey-tab"
+      role="tab"
+      aria-selected="false"
+      aria-controls="journey-organizations"
+      id="tab-organizations"
+      data-journey-trigger="organizations"
+    >
+      Organisasi
+    </button>
+    <button
+      class="journey-tab"
+      role="tab"
+      aria-selected="false"
+      aria-controls="journey-experiences"
+      id="tab-experiences"
+      data-journey-trigger="experiences"
+    >
+      Pengalaman Kerja
+    </button>
+  </div>
+
+  <div class="journey-panels">
+    <div
+      class="journey-panel is-active"
+      role="tabpanel"
+      id="journey-education"
+      aria-labelledby="tab-education"
+    >
+      <div class="journey-list">
+        {% for item in journey.education %}
+        <div class="journey-card">
+          <span class="journey-period">{{ item.period }}</span>
+          <h4>{{ item.title }}</h4>
+          <p class="journey-place">{{ item.institution }}</p>
+          {% if item.description %} {% if item.description is string %}
+          <p class="journey-description">{{ item.description }}</p>
+          {% else %}
+          <ul class="journey-description">
+            {% for point in item.description %}
+            <li>{{ point }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %} {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div
+      class="journey-panel"
+      role="tabpanel"
+      id="journey-organizations"
+      aria-labelledby="tab-organizations"
+      hidden
+    >
+      <div class="journey-list">
+        {% for item in journey.organizations %}
+        <div class="journey-card">
+          <span class="journey-period">{{ item.period }}</span>
+          <h4>{{ item.title }}</h4>
+          <p class="journey-place">{{ item.institution }}</p>
+          {% if item.description %} {% if item.description is string %}
+          <p class="journey-description">{{ item.description }}</p>
+          {% else %}
+          <ul class="journey-description">
+            {% for point in item.description %}
+            <li>{{ point }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %} {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div
+      class="journey-panel"
+      role="tabpanel"
+      id="journey-experiences"
+      aria-labelledby="tab-experiences"
+      hidden
+    >
+      <div class="journey-list">
+        {% for item in journey.experiences %}
+        <div class="journey-card">
+          <span class="journey-period">{{ item.period }}</span>
+          <h4>{{ item.title }}</h4>
+          <p class="journey-place">{{ item.institution }}</p>
+          {% if item.description %} {% if item.description is string %}
+          <p class="journey-description">{{ item.description }}</p>
+          {% else %}
+          <ul class="journey-description">
+            {% for point in item.description %}
+            <li>{{ point }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %} {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
