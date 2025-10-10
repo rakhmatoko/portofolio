@@ -16,5 +16,6 @@ module.exports = function (eleventyConfig) {
       input: 'src',
       output: 'public',
     },
+    pathPrefix: process.env.ELEVENTY_PATH_PREFIX || '/',
   };
 };

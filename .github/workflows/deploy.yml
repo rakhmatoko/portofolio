@@ -22,6 +22,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Configure Eleventy path prefix
+        run: |
+          repo_name="${GITHUB_REPOSITORY#*/}"
+          if [[ "$repo_name" == "${GITHUB_REPOSITORY_OWNER}.github.io" ]]; then
+            echo "ELEVENTY_PATH_PREFIX=/" >> "$GITHUB_ENV"
+          else
+            echo "ELEVENTY_PATH_PREFIX=/$repo_name/" >> "$GITHUB_ENV"
+          fi
+
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
