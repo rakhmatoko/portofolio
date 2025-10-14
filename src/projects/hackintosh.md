@@ -18,20 +18,20 @@ Build ini menggunakan **OpenCore 1.0.5** sebagai bootloader utama, dengan dual d
 
 ## Spesifikasi Perangkat
 
-| Komponen                        | Detail                               |
-| ------------------------------- | ------------------------------------ |
-| **Case**                        | Lian Li 011D Mini V2 Black           |
-| **CPU**                         | Intel® Core™ Ultra 7 265K (3.87 GHz) |
-| **GPU**                         | ASUS TUF AMD Radeon RX 6900 XT 16 GB |
-| **Motherboard**                 | Gigabyte Z890 AORUS ELITE WIFI7      |
-| **RAM**                         | Acer Predator Hera DDR5 8000 Mhz     |
-| **Wi-Fi / Bluetooth (Onboard)** | Mediatek Wi-Fi 7                     |
-| **Wi-Fi / Bluetooth (PCIe)**    | Broadcom BCM94360CD + 4 Antena       |
-| **Storage (macOS)**             | WD Black SN850X 1TB NVMe             |
-| **Storage (Windows)**           | Kingston NV3 500GB NVMe              |
-| **Power Supply**                | ADATA XPG Core Reactor II 1000W      |
-| **Bootloader**                  | OpenCore 1.0.5                       |
-| **macOS Version**               | macOS Tahoe 26.0.1                   |
+| Komponen                        | Detail                                |
+| ------------------------------- | ------------------------------------- |
+| **Case**                        | Lian Li 011D Mini V2 Black            |
+| **CPU**                         | Intel® Core™ Ultra 7 265K (3.87 GHz)  |
+| **GPU**                         | ASUS TUF AMD Radeon RX 6900 XT 16 GB  |
+| **Motherboard**                 | Gigabyte Z890 AORUS ELITE WIFI7       |
+| **RAM**                         | Acer Predator Hera DDR5 8000 Mhz 32GB |
+| **Wi-Fi / Bluetooth (Onboard)** | Mediatek Wi-Fi 7                      |
+| **Wi-Fi / Bluetooth (PCIe)**    | Broadcom BCM94360CD + 4 Antena        |
+| **Storage (macOS)**             | WD Black SN850X 1TB NVMe              |
+| **Storage (Windows)**           | Kingston NV3 500GB NVMe               |
+| **Power Supply**                | ADATA XPG Core Reactor II 1000W       |
+| **Bootloader**                  | OpenCore 1.0.5                        |
+| **macOS Version**               | macOS Tahoe 26.0.1                    |
 
 ---
 
