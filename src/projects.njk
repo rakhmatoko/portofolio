@@ -16,7 +16,7 @@ title: Projects
       </div>
       <h3>{{ project.data.title }}</h3>
       <p>{{ project.data.description }}</p>
-      <a href="{{ project.url }}" class="cta-btn">Read more</a>
+      <a href="{{ project.url | url }}" class="cta-btn">Read more</a>
     </div>
     {% endfor %}
   </div>
