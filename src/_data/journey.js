@@ -5,7 +5,7 @@ module.exports = {
       title: 'S1 Teknik Informatika',
       institution: 'STMIK AKI Pati',
       description: [
-        'IPK: 3.85',
+        'IPK: 3.13',
         'Tugas Akhir: Aplikasi Mobile Konsultasi Dokter Dengan Menggunakan Framework React Native di Klinik Mitra Anda Timika',
       ],
     },

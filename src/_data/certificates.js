@@ -6,7 +6,27 @@ module.exports = [
     credentialId: null,
     credentialUrl: null,
     description:
-      'Target sertifikasi akhir bulan ini untuk memperdalam routing, wireless, firewall, dan manajemen RouterOS.',
+      'Akan mengikuti sertifikasi MTCNA + Exam pada tanggal 22-24 Oktober 2025 yang diselenggarakan oleh ID-Networkers (IDN.ID)',
+  },
+  {
+    title: 'MikroTik Dasar',
+    issuer: 'ID-Networkers (IDN.ID)',
+    issued: '14/10/2025',
+    credentialId: 'IDN-1760438029-182-67089',
+    credentialUrl:
+      'https://drive.google.com/file/d/16Xed2AJatyS6otxihOezDxaJNDk1at5c/view?usp=sharing',
+    description:
+      'Mempelajari tentang pengenalan MikroTik, fitur dan versi RouterOS, serta cara mengakses perangkat melalui Winbox, WebFig, dan Command Line. Peserta belajar menghubungkan MikroTik ke internet, mengelola paket, melakukan upgrade atau downgrade sistem, serta mengatur login, grup, dan layanan IP. Materi juga mencakup proses backup, restore, dan reset konfigurasi perangkat. Di akhir, peserta mengikuti Final Quiz untuk menguji pemahaman terhadap seluruh konsep dasar MikroTik.',
+  },
+  {
+    title: 'Jaringan Dasar',
+    issuer: 'ID-Networkers (IDN.ID)',
+    issued: '14/10/2025',
+    credentialId: 'IDN-1760427557-180-67089',
+    credentialUrl:
+      'https://drive.google.com/file/d/1tUN6OzbbegvyC1UWe9o-Cdh08Y5PghSm/view?usp=sharing',
+    description:
+      'Mempelajari dasar jaringan komputer, mulai dari konsep komunikasi data, model OSI dan TCP/IP, hingga pengenalan IP, port, dan alamat jaringan. Peserta juga belajar dasar subnetting serta jenis kabel UTP, STP, dan fiber optic sebagai media transmisi. Di akhir, tersedia Final Quiz untuk mengukur pemahaman materi secara menyeluruh.',
   },
   {
     title: 'Blue Team Fundamental',
