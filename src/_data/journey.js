@@ -34,6 +34,16 @@ module.exports = {
   ],
   experiences: [
     {
+      period: '11/2015 - Sekarang',
+      title: 'Network Operations Center (NOC)',
+      institution: 'PT. MEGA DATA PERKASA',
+      description: [
+        'Memantau performa jaringan, server, dan perangkat secara real-time untuk memastikan sistem berjalan stabil.',
+        'Menangani dan menyelesaikan gangguan jaringan, melakukan analisa awal, serta eskalasi ke tim terkait bila diperlukan.',
+        'Melakukan pemeliharaan dan konfigurasi perangkat jaringan dan mendiagnosa serta mencari solusi atas permasalahan jaringan dan sistem.',
+      ],
+    },
+    {
       period: '03/2015 - 03/2017',
       title: 'Tenaga IT',
       institution: 'SIT Permata Papua',

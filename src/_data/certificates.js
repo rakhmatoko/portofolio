@@ -2,11 +2,11 @@ module.exports = [
   {
     title: 'MikroTik Certified Network Associate (MTCNA)',
     issuer: 'ID-Networkers (IDN.ID)',
-    issued: 'Dalam persiapan',
-    credentialId: null,
-    credentialUrl: null,
+    issued: '29/10/2025',
+    credentialId: '2510NA8135',
+    credentialUrl: 'https://mikrotik.com/training/certificates/c508135cea879dc0db18',
     description:
-      'Akan mengikuti sertifikasi MTCNA + Exam pada tanggal 22-24 Oktober 2025 yang diselenggarakan oleh ID-Networkers (IDN.ID)',
+      'Sertifikasi MikroTik Certified Network Associate (MTCNA) berfokus pada penguasaan dasar konfigurasi dan manajemen jaringan menggunakan RouterOS, mencakup instalasi, konfigurasi koneksi internet, firewall, NAT, QoS, DHCP, ARP, bridging, routing statik, wireless, hingga tunneling seperti PPPoE, PPTP, L2TP, dan EoIP — dengan setiap materi diperkuat melalui praktik langsung (lab).',
   },
   {
     title: 'MikroTik Dasar',
