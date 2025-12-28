@@ -1,12 +1,48 @@
 module.exports = [
   {
-    title: 'MikroTik Certified Network Associate (MTCNA)',
+    title: 'MikroTik Certified Routing Engineer (MTCRE)',
+    issuer: 'MikroTik',
+    issued: '6/12/2025',
+    credentialId: '2512RE1154',
+    credentialUrl: 'https://drive.google.com/file/d/1LUy-8HhzKhPGytURQlIVMbbzX7EggIVx/view',
+    description:
+      'Sertifikasi resmi MikroTik Certified Routing Engineer (MTCRE) yang diperoleh melalui ujian resmi MikroTik.',
+  },
+  {
+    title: 'Training MikroTik Certified Routing Engineer (MTCRE)',
     issuer: 'ID-Networkers (IDN.ID)',
+    issued: '6/12/2025',
+    credentialId: 'CERT0610920067',
+    credentialUrl: 'https://drive.google.com/file/d/1LUy-8HhzKhPGytURQlIVMbbzX7EggIVx/view',
+    description:
+      'Pelatihan MikroTik MTCRE yang berfokus pada routing lanjutan menggunakan RouterOS, meliputi connected route, static route, policy routing, failover, load balancing, serta dynamic routing seperti OSPF, disertai praktik langsung (lab).',
+  },
+  {
+    title: 'Training Cisco Certified Network Associate (CCNA)',
+    issuer: 'ID-Networkers (IDN.ID)',
+    issued: '16/11/2025',
+    credentialId: 'CERT0597519629',
+    credentialUrl: 'https://drive.google.com/file/d/19Bqq6YjEF4AcSy2K0UNQjsilVTnFjIj2/view',
+    description:
+      'Pelatihan Cisco CCNA 200-301 yang membahas dasar jaringan komputer, meliputi network fundamentals, network access, IP connectivity, IP services, serta pengenalan routing dan switching, dengan materi diperkuat melalui praktik dan studi kasus.',
+  },
+  {
+    title: 'MikroTik Certified Network Associate (MTCNA)',
+    issuer: 'MikroTik',
     issued: '29/10/2025',
     credentialId: '2510NA8135',
     credentialUrl: 'https://mikrotik.com/training/certificates/c508135cea879dc0db18',
     description:
-      'Sertifikasi MikroTik Certified Network Associate (MTCNA) berfokus pada penguasaan dasar konfigurasi dan manajemen jaringan menggunakan RouterOS, mencakup instalasi, konfigurasi koneksi internet, firewall, NAT, QoS, DHCP, ARP, bridging, routing statik, wireless, hingga tunneling seperti PPPoE, PPTP, L2TP, dan EoIP — dengan setiap materi diperkuat melalui praktik langsung (lab).',
+      'Sertifikasi resmi MikroTik Certified Network Associate (MTCNA) yang diperoleh melalui ujian resmi MikroTik.',
+  },
+  {
+    title: 'Training MikroTik Certified Network Associate (MTCNA)',
+    issuer: 'ID-Networkers (IDN.ID)',
+    issued: '24/10/2025',
+    credentialId: 'CERT0571519087',
+    credentialUrl: 'https://drive.google.com/file/d/1O3u6y-vr2BGhF8h8pcMhyGp7n3c1d2EM/view',
+    description:
+      'Pelatihan MikroTik MTCNA yang membahas dasar konfigurasi dan manajemen jaringan menggunakan RouterOS, meliputi koneksi internet, firewall, NAT, QoS, routing dasar, wireless, serta network management, dengan materi diperkuat melalui praktik langsung (lab).',
   },
   {
     title: 'MikroTik Dasar',

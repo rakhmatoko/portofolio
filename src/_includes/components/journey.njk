@@ -6,6 +6,16 @@
     <button
       class="journey-tab is-active"
       role="tab"
+      aria-selected="false"
+      aria-controls="journey-experiences"
+      id="tab-experiences"
+      data-journey-trigger="experiences"
+    >
+      Pengalaman Kerja
+    </button>
+    <button
+      class="journey-tab"
+      role="tab"
       aria-selected="true"
       aria-controls="journey-education"
       id="tab-education"
@@ -23,21 +33,11 @@
     >
       Organisasi
     </button>
-    <button
-      class="journey-tab"
-      role="tab"
-      aria-selected="false"
-      aria-controls="journey-experiences"
-      id="tab-experiences"
-      data-journey-trigger="experiences"
-    >
-      Pengalaman Kerja
-    </button>
   </div>
 
   <div class="journey-panels">
     <div
-      class="journey-panel is-active"
+      class="journey-panel"
       role="tabpanel"
       id="journey-education"
       aria-labelledby="tab-education"
@@ -88,7 +88,7 @@
       </div>
     </div>
     <div
-      class="journey-panel"
+      class="journey-panel is-active"
       role="tabpanel"
       id="journey-experiences"
       aria-labelledby="tab-experiences"

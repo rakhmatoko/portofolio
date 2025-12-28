@@ -34,13 +34,15 @@ module.exports = {
   ],
   experiences: [
     {
-      period: '11/2015 - Sekarang',
+      period: '11/2025 - Sekarang',
       title: 'Network Operations Center (NOC)',
       institution: 'PT. MEGA DATA PERKASA',
       description: [
-        'Memantau performa jaringan, server, dan perangkat secara real-time untuk memastikan sistem berjalan stabil.',
-        'Menangani dan menyelesaikan gangguan jaringan, melakukan analisa awal, serta eskalasi ke tim terkait bila diperlukan.',
-        'Melakukan pemeliharaan dan konfigurasi perangkat jaringan dan mendiagnosa serta mencari solusi atas permasalahan jaringan dan sistem.',
+        'Memantau dan memastikan stabilitas jaringan, server, serta perangkat secara real-time.',
+        'Menangani gangguan jaringan melalui troubleshooting awal dan melakukan eskalasi ke tim terkait bila diperlukan.',
+        'Melakukan konfigurasi, pemeliharaan, serta monitoring perangkat dan layanan jaringan, termasuk pengelolaan user (RADIUS & Billing).',
+        'Mencatat, meneruskan, dan memantau ticket gangguan melalui sistem helpdesk hingga proses penanganan berjalan.',
+        'Mendukung troubleshooting jaringan fiber optik, termasuk pengukuran dan analisa redaman menggunakan OTDR dan OPM, serta pengecekan level optical power SFP dari OLT ke arah POP/customer.',
       ],
     },
     {
